@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulario_GuardarDatos</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtCorreo">Email</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtFechaNac">Fecha Nacimiento</string>
+    <string name="lblGenero">Género</string>
+    <string name="radButMasculino">Masculino</string>
+    <string name="radButFemenino">Femenino</string>
+    <string name="txtLibreta">Libreta Militar</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="errorNombre">Nombre no es valido</string>
+    <string name="errorCorreo">Correo no es valido</string>
+    <string name="errorTelefono">"Telefono no es válido "</string>
+    <string name="errorFecha">"Fecha no es válida "</string>
+    <string name="errorLibreta">"Número de libreta No válido "</string>
+
+</resources>

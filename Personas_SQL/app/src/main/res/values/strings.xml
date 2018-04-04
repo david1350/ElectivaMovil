@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Usuarios SQLite</string>
+    <string name="buttonCrear">Crear Usuario</string>
+    <string name="buttonUsuarios">Ver Usuarios</string>
+    <string name="title_activity_formulario">FormularioActivity</string>
+
+
+    <string name="txtNombre">Nombre</string>
+    <string name="txtCorreo">Email</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtFechaNac">Fecha Nacimiento</string>
+    <string name="lblGenero">Género</string>
+    <string name="radButMasculino">Masculino</string>
+    <string name="radButFemenino">Femenino</string>
+    <string name="txtLibreta">Libreta Militar</string>
+    <string name="errorNombre">Nombre no es valido</string>
+    <string name="errorCorreo">Correo no es valido</string>
+    <string name="errorTelefono">"Telefono no es válido "</string>
+    <string name="errorFecha">"Fecha no es válida "</string>
+    <string name="errorLibreta">"Número de libreta No válido "</string>
+    <string name="lblTitulo">"Formulario De Registro "</string>
+    <string name="buttonCancelar">"Cancelar "</string>
+    <string name="buttonGuardar">"Guardar"</string>
+    <string name="AgregarPersona">"Agregar Persona"</string>
+
+    <string name="buttonActualizar">"Actualizar"</string>
+    <string name="buttonEliminar">"Eliminar"</string>
+    <string name="lblTituloModificar">"Modificar Usuario"</string>
+
+
+</resources>
+

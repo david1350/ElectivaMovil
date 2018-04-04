@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TableRow android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acelerometro"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:text="@string/acelerometro" />
+
+        <TextView
+            android:id="@+id/luz"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:text="@string/luz" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/proximidad"
+            android:layout_gravity="center"
+            android:checked="false"
+
+            />
+
+        <EditText
+            android:id="@+id/orientacion"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:hint="@string/orientacion" />
+    </TableRow>
+
+</TableLayout>

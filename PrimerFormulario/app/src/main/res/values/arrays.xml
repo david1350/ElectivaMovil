@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones_almacenamiento" >
+        <item>Archivo Propiedades</item>
+        <item>Almacenamiento Interno</item>
+        <item>SQLite</item>
+    </string-array>
+</resources>

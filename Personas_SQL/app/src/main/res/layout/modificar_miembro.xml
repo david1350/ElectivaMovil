@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/lblTituloModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:autoSizeMaxTextSize="@android:dimen/thumbnail_height"
+            android:autoSizeMinTextSize="200dp"
+            android:autoSizeTextType="none"
+            android:backgroundTint="?attr/colorBackgroundFloating"
+            android:text="@string/lblTituloModificar"
+            android:textColorLink="@android:color/black"
+            android:textSize="18sp"
+            tools:autoSizeMaxTextSize="200dp" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/txtNombreModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtNombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtCorreoModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtCorreo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtTelefonoModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtTelefono"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/txtFechaNaModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtFechaNac"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/lblGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblGenero" />
+
+    <RadioGroup
+        android:id="@+id/radGroupButtonGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radButMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/radButMasculino" />
+
+        <RadioButton
+            android:id="@+id/radButFemenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radButFemenino" />
+
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonEliminar"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background"
+                android:gravity="center"
+                android:text="@string/buttonEliminar" />
+
+            <Button
+                android:id="@+id/buttonActualizar"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_background"
+                android:gravity="center"
+                android:text="@string/buttonActualizar" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SwiftService</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="ip">https://swiftservicefd.000webhostapp.com</string>
+
+
+    <string name="registrarPlatillo">Registrar Platillo</string>
+
+    <string name="errorNombre">Nombre no es válido</string>
+    <string name="errorDescripcion">Descripción no válida</string>
+    <string name="errorPrecio">Precio no válido</string>
+
+
+
+</resources>

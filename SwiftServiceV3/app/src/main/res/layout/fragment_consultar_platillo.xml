@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.uptc.swiftservicev3.fragments.Tab_ConsultarPlatilloFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/idViewPagerConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+Como requisito del proyecto es indispensable la conexion a internet.
+- el usuario administrador tiene las credenciales de:
+
+nombre usuario: admin
+password: 123
+
+- para el usuario cliente se disponen de los codigos qr en la carpeta imagenesQR
+correspondientes a cada una de las mesas.
+
+- la informacion que se carga a la aplicación depende de la velocidad de conexion a internet.
+
+Desarrollado por:
+William avila
+Francisco Parra

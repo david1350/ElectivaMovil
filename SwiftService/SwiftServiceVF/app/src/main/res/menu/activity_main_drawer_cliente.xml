@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view_cliente">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_InicioCliente"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_CategoriaPlatillosCliente"
+            android:icon="@drawable/category"
+            android:title="Categorias" />
+        <item
+            android:id="@+id/nav_ListarPlatosCliente"
+            android:icon="@drawable/listar"
+            android:title="Listar Platillos" />
+
+        <item
+            android:id="@+id/nav_ListarOrdenCliente"
+            android:icon="@drawable/realizar_orden"
+            android:title="Realizar Orden" />
+
+        <item
+            android:id="@+id/nav_ListarOrdenesCliente"
+            android:icon="@drawable/listar_orden"
+            android:title="Listar Mis Ordenes" />
+    </group>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_Acerca_De"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Acerca De" />
+
+        </menu>
+    </item>
+
+</menu>

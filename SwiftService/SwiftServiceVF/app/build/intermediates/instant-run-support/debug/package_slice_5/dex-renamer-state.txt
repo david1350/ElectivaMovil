@@ -1,0 +1,4 @@
+#Sun Apr 22 21:04:48 COT 2018
+base.0=C\:\\Users\\Frank\\Downloads\\SwiftService\\SwiftServiceVF\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,25 @@
+<h1>
+  {{titulo}}  {{nombre}}
+</h1>
+
+
+ <div class="form-group" *ngIf=listaLLena>
+
+	<input type="text" class="form-control"  placeholder="escriba nombre de la ciudad" [(ngModel)]="nombre">
+
+	<div class="col-md-12 text-right">
+          <button (click)="anadir_ciudad()" [disabled]=" nombre == null || nombre.length==0 " type="submit" class="btn btn-primary btn-lg">AñadirCiudad</button>
+    </div>
+
+ </div>
+
+<div *ngIf="!listaLLena">
+ <input type="text" class="form-control"  disabled="true" placeholder="escriba nombre de la ciudad" [(ngModel)]="nombre">
+</div>
+
+ <ul class="list-group">
+ 	<li class="list-group-item" *ngFor="let item of ciudades">
+ 		{{item}}
+ 	</li>
+ </ul>
+

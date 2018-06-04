@@ -1,0 +1,13 @@
+toca 
+- hacer la pantalla principal donde se pueda elegir para ir a cliente o a administrador
+- hacer las pantallas del administrador
+ - el acerca de
+ - el inicio se adapte la imagen a todos los dispositivos
+ - los iconos pequeños dentro de cada una de las opciones del menu.
+ - meter iconos donde falte (hay estan en la carpeta imagenes_proyect_ionic)
+ - meterle el splash pero ya al final con el qr mientras que se deja todo full.
+
+
+con este link descarga solo la carpeta del proyecto:
+
+https://minhaskamal.github.io/DownGit/#/home
